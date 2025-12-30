@@ -50,24 +50,33 @@
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: end !important;
-    padding-right: 20px;
+    padding: 8px 20px;                 
     border: 3px solid #00000012;
+    min-height: auto;                 
+    font-size: 14px;                 
 }
+
 .profilecontainer {
     display: flex;
     align-items: center;
     gap: 10px;
 }
+
 .username{
-    font-size: 500;
+    font-weight: 500;                 
+    font-size: 14px;
 }
+
 .liststyle{
     list-style: none;
     padding-top: 10px;
     padding-right: 10px;
+    margin: 0;                        
 }
+
 .bellicon{
    color: rgba(43, 43, 43, 0.475);
+   font-size: 16px;                  
 }
 
 .profile{
@@ -75,8 +84,8 @@
     height: 30px;
     background-color: black;
     border-radius: 50%;
-
 }
+
 
 /* navbar end  */
 
