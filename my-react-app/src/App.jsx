@@ -1,6 +1,6 @@
 import React from "react";
-import Sidebar from "./components/Sidebar";
-import Navu from "./components/Navu";
+import Sidebar from "./Components/Sidebar";
+import Navu from "./Components/Navu";
 import Maincontent from "./Components/Maincontent";
 import "./assets/machine.css";
 
