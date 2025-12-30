@@ -1,0 +1,186 @@
+.ico{
+    color: rgb(27, 127, 198);
+}
+
+/* sidebar */
+
+/* .logo{
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+
+} */
+.logopart{
+    height: 125px;
+    width: 186px;
+    margin-left: -15px;
+    margin-bottom: 30px;
+}
+.sidelist{
+    list-style: none;
+    padding: 20px;
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding-left: 10px;
+    border: 3px solid #00000012;
+    border-radius: 4px;
+    z-index: 100;
+    position: fixed;
+    margin-top: -80px;
+    margin-left: -1%;
+    margin-right: 250px;
+}
+.sidelist li{
+    padding-bottom: 20px;
+    border: 2px;
+    padding-left: 50px;
+    overflow: hidden;
+    font-size: medium;
+}
+
+/* sidebar end  */
+
+
+/* navbar start */
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: end !important;
+    padding-right: 20px;
+    border: 3px solid #00000012;
+}
+.profilecontainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.username{
+    font-size: 500;
+}
+.liststyle{
+    list-style: none;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.bellicon{
+   color: rgba(43, 43, 43, 0.475);
+}
+
+.profile{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+
+}
+
+/* navbar end  */
+
+
+/* main content  */
+
+.searchinput{
+    margin-top: 50px;
+    text-align: start;
+    padding-left: 10px;
+    padding-right: 72%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-color: rgba(135, 135, 135, 0.1);
+
+
+}
+.searchbtn{
+    width: 85px;
+    position: relative;
+    margin-left: -95px;
+    border: none;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    background-color:  rgb(27, 127, 198);
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.heading{
+    margin-left: 6%;
+    margin-top: 1%;
+    font-weight: 700;
+    
+}
+.aline{
+    border: 1px solid #6262626c ;
+    width: 100%;
+}
+.alist{
+    display: flex;
+    justify-content: start;
+}
+.alistul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-left: 7%;
+    margin-bottom: -24px;
+    margin-top: 10px;
+}
+.blistul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    margin-right: 60px;
+    margin-bottom: 3px;
+}
+.addbtn{
+    width: 180px !important;
+    border: none;
+    padding-top: 5px !important;
+    border-radius: 8px;
+    color: rgb(255, 255, 255) !important;
+    background-color:  rgb(27, 127, 198) !important;
+    height: 42px;
+    margin-top: -10px;
+}
+.card{
+    width: 210px;
+}
+.cardrow{
+    margin-left: 8% !important ;
+}
+.card-body{
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+.btn-primary{
+    width: 84px;
+    height: 24px;
+    background-color:  rgb(27, 127, 198) !important;
+    border: none !important;
+
+}
+.paras {
+    margin-top: -6px;
+    margin-bottom: 0rem;
+}
+.cardtitle{
+    font-size: 16px !important;
+}
+.card-text{
+    font-size: 14px !important;
+}
+.cardtxt{
+    font-size: 14px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+
+}
+.deletebtn {
+    background-color: rgb(255, 0, 0) !important;
+    color: white !important;
+}
