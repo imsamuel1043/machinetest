@@ -1,20 +1,22 @@
-import { useState } from 'react'
-import './App.css'
-import Navu from './Components/Navu'
-// import Sidebar from './Components/Sidebar'
-import Maincontent from './Components/Maincontent'
+import React from "react";
+import Sidebar from "./components/Sidebar";
+import Navu from "./components/Navu";
+import Maincontent from "./Components/Maincontent";
+import "./assets/machine.css";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-    <Navu/>
-    {/* <Sidebar/> */}
-    <Maincontent/>
+    <div className="app-layout">
+      <Sidebar />
 
-    </>
-  )
-}
+      <div className="main-content">
+        <Navu />
+        <div className="page-content">
+          <Maincontent/>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default App
+export default App;
