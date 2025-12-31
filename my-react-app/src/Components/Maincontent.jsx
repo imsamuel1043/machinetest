@@ -85,12 +85,6 @@ const Maincontent = () => {
                             >
                                 ALL CLASS
                             </li>
-                            <li
-                                className={activeTab === "my" ? "active" : ""}
-                                onClick={() => setActiveTab("my")}
-                            >
-                                MY CLASS
-                            </li>
                         </ul>
 
                         <button

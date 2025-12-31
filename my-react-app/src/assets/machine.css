@@ -124,26 +124,13 @@
     }
 }
 @media (max-width: 768px) {
-    .navbar {
-        padding: 8px 12px;
-    }
-
-    .username {
-        display: none;
-    }
-
-    .profilecontainer {
-        gap: 8px;
+     .navbar {
+        display: none !important;
     }
 }
 @media (max-width: 480px) {
-    .bellicon {
-        font-size: 15px;
-    }
-
-    .profile {
-        width: 28px;
-        height: 28px;
+     .navbar {
+        display: none !important;
     }
 }
 
@@ -298,4 +285,11 @@
 }
 .modal {
     background: rgba(0, 0, 0, 0.5);
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
 }
